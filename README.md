@@ -16,9 +16,7 @@ an image divide module, a rotated object detection module, a tracking module, an
 
 ## Major Components
 
-## Demo
- ![track](docs/md_files/images/tracking_result1.jpg)![track](docs/md_files/images/tracking_result2.jpg)
- ![track](docs/md_files/images/tracking_result3.jpg)![track](docs/md_files/images/tracking_result4.jpg)
+
 
 ## License
 
@@ -54,3 +52,7 @@ The code corresponding to the GCVTM paper is "./toolbox/trajectory_connection/mu
 Ph.D. Candidate  
 School of Transportation, Southeast University, China  
 Email: xinkaiji@seu.edu.cn
+
+## Demo
+ ![track](docs/md_files/images/tracking_result1.jpg)![track](docs/md_files/images/tracking_result2.jpg)
+ ![track](docs/md_files/images/tracking_result3.jpg)![track](docs/md_files/images/tracking_result4.jpg)
