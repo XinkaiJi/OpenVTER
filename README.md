@@ -26,6 +26,9 @@ an image divide module, a rotated object detection module, a tracking module, an
 This project is released under the [Apache 2.0 license](LICENSE).
 
 ## Getting Started
+### Trajectory connection
+
+The code corresponding to the GCVTM paper is "./toolbox/trajectory_connection/multi_video_trajectory_connection.py"
 
 ## Citation
 
@@ -34,6 +37,12 @@ This project is released under the [Apache 2.0 license](LICENSE).
 ```
 @article{**,
   title   = {OpenVTER: an open vehicle trajectory extraction framework based on rotated object detection},
+  author  = {Xinkai Ji},
+  journal= {},
+  year={}
+}
+@article{**,
+  title   = {A Graph-Based Approach for Connecting Vehicle Trajectories from Multiple UAVs},
   author  = {Xinkai Ji},
   journal= {},
   year={}
