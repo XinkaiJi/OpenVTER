@@ -2,8 +2,8 @@ OpenVTER
 ===============
 ## Introduction
 
-English | [简体中文](README_zh-CN.md)  
-**The paper is being written, and the code will be open source in the future.**  
+English | [简体中文](README_zh-CN.md)
+
 OpenVTER is an open vehicle trajectory extraction framework based on rotated bounding boxes.
 OpenVTER provides a full-stack vehicle trajectory extraction software that contains a video stabilization module, 
 an image divide module, a rotated object detection module, a tracking module, and a data post-processing module. 
