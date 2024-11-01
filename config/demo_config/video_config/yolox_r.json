@@ -1,0 +1,13 @@
+{
+  "model_name": "yolox_r",
+  "checkpoint_type":"jit",
+  "checkpoint": "checkpoints/yolox-r/yoloxr_X_202206.jit",
+  "phi": "x",
+  "device_name": "cuda:0",
+  "confidence": 0.2,
+  "nms_iou": 0.3,
+  "img_width": 640,
+  "img_height": 640,
+  "class_names": ["car","truck","bus","freight_car","van"],
+  "color_pans": "[(204,78,210),(204,78,210),(204,78,210),(204,78,210),(204,78,210)]"
+}

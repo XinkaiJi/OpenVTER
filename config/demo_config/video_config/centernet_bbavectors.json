@@ -1,0 +1,13 @@
+{
+  "model_name": "centernet_bbavectors",
+  "checkpoint_type":"jit",
+   "checkpoint_jit":"checkpoints/centernet_bbavectors/centernet_bbavectors_oneclass_M_202206.jit",
+   "confidence":0.2,
+   "img_width": 640,
+   "img_height": 512,
+   "device_name": "cuda:0",
+   "class_names": ["car", "truck", "bus", "freight_car", "van"],
+   "color_pans": "[(204,78,210),(204,78,210),(204,78,210),(204,78,210),(204,78,210)]",
+   "down_ratio": 4,
+   "max_object_num":100
+}

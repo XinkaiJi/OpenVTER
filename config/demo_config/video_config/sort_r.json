@@ -1,0 +1,9 @@
+{
+  "model_name": "sort_r",
+  "device": "cpu",
+  "match_iou_threshold1":0.9,
+  "match_iou_threshold2":0.2,
+  "max_age": 30,
+  "min_hits": 3,
+  "iou_threshold": 0.3
+}

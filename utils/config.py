@@ -200,8 +200,8 @@ class RoadConfig:
                         unit =10
                         axis_image = RoadConfig._generate_axis_image(width, height, base_points, x_axis_vector, y_axis_vector, mean_length_per_pixel, unit)
                         pixel2xy_matrix = RoadConfig._get_pixel2xy_matrix(base_points, x_axis_vector, y_axis_vector, mean_length_per_pixel, unit)
-                if len(laneline_dict)>0:
-                    axis_image = RoadConfig._draw_laneline(axis_image,laneline_dict,width, height)
+                # if len(laneline_dict)>0:
+                #     axis_image = RoadConfig._draw_laneline(axis_image,laneline_dict,width, height)
         res = {'det_mask':det_mask,'stab_mask':stab_mask[:,:,0],
                'length_per_pixel':mean_length_per_pixel,'base_points':base_points,
                'x_axis_vector':x_axis_vector,'y_axis_vector':y_axis_vector,'lane':lane_dict,'axis_image':axis_image,
