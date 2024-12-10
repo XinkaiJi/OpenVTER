@@ -62,6 +62,11 @@ Dowload UAV demo video
 Put the vides in your data folder, such as "/data1/UAV_Videos/20220303_5_E_300"
 
 # Get started
+## Preparing configuration files
+
+
+
+
 ## Video stabilization
 ```
 python video_inference_main.py -s 1 -e 1 -c config/demo_config/video_config/20220303_5_E_300.json
